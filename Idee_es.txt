@@ -1,0 +1,24 @@
+FACTORIAL
+- variare k, magari in funzione di n
+- k = 1 caso importante
+- come suddividere numeri da calcolare (2,22,42,...)
+- main crea supervisor e processi
+- se troppi fail stoppo tutto
+- fail in funzione di p (prob di fail)
+- (fail se ci mette troppo)
+- approccio "Pull"
+
+SEARCH
+Assunzioni
+	- string = una parola
+- donk -> 1 file 1 processo
+- leggere da memoria o disco
+- main crea n processi per n file che a loro volta creano x 
+  processi in base a grandezza del file da valutare
+- creare worker in base a lavoro da fare (no tempi morti)
+- "pull"
+
+PRIME SIEVE
+- comparazione tra non variazione e variazione migliore
+- arrivare fino a radice di n oppure no
+

@@ -1,0 +1,30 @@
+
+# Created by https://www.gitignore.io/api/go,ada
+# Edit at https://www.gitignore.io/?templates=go,ada
+
+### Ada ###
+# Object file
+*.o
+
+# Ada Library Information
+*.ali
+
+### Go ###
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+### Go Patch ###
+/vendor/
+/Godeps/
+
+# End of https://www.gitignore.io/api/go,ada
