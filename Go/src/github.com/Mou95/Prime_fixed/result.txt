@@ -1,0 +1,14 @@
+goos: linux
+goarch: amd64
+pkg: github.com/Mou95/Prime_fixed
+BenchmarkPrime100_4-4       	    3000	    604846 ns/op
+BenchmarkPrime1000_4-4      	     100	  11476819 ns/op
+BenchmarkPrime10000_4-4     	       5	 238494456 ns/op
+BenchmarkPrime100_8-4       	    2000	    661410 ns/op
+BenchmarkPrime1000_8-4      	     100	  11887325 ns/op
+BenchmarkPrime10000_8-4     	       5	 238246605 ns/op
+BenchmarkPrime100000_8-4    	       1	5507625384 ns/op
+BenchmarkPrime100000_16-4   	       1	5448626360 ns/op
+BenchmarkPrime100000_32-4   	       1	4430821879 ns/op
+PASS
+ok  	github.com/Mou95/Prime_fixed	24.257s

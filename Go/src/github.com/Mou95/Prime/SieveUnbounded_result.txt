@@ -1,0 +1,10 @@
+goos: linux
+goarch: amd64
+pkg: github.com/Mou95/Prime
+BenchmarkPrime100-4      	    2000	   1007718 ns/op
+BenchmarkPrime1000-4     	      30	  73683238 ns/op
+BenchmarkPrime10000-4    	       1	6242560750 ns/op
+BenchmarkPrime100000-4   	       1	261768561956 ns/op
+PASS
+ok  	github.com/Mou95/Prime	273.566s
+

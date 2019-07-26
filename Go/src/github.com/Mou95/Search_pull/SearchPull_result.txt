@@ -1,0 +1,9 @@
+goos: linux
+goarch: amd64
+pkg: github.com/Mou95/Search_pull
+BenchmarkSearch1-4    	       2	 691517572 ns/op
+BenchmarkSearch6-4    	       2	 648263702 ns/op
+BenchmarkSearch12-4   	       2	 646459302 ns/op
+BenchmarkSearch24-4   	       2	 601106737 ns/op
+PASS
+ok  	github.com/Mou95/Search_pull	7.938s

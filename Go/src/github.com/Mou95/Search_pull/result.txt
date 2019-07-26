@@ -1,0 +1,5 @@
+goos: linux
+goarch: amd64
+pkg: github.com/Mou95/Search_pull
+BenchmarkSearch1-4    	signal: interrupt
+FAIL	github.com/Mou95/Search_pull	0.923s
