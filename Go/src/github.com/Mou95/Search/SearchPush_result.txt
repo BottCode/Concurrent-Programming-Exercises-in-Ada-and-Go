@@ -1,0 +1,6 @@
+goos: linux
+goarch: amd64
+pkg: github.com/Mou95/Search
+BenchmarkSearch1-4   	       3	 440406801 ns/op
+PASS
+ok  	github.com/Mou95/Search	2.817s

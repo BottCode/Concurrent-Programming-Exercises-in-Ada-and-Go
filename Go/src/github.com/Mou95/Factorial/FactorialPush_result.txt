@@ -1,0 +1,8 @@
+goos: linux
+goarch: amd64
+pkg: github.com/Mou95/Factorial
+BenchmarkFactorial1-4   	 1000000	      1582 ns/op
+BenchmarkFactorial2-4   	  500000	      2449 ns/op
+BenchmarkFactorial5-4   	  300000	      4795 ns/op
+PASS
+ok  	github.com/Mou95/Factorial	4.339s
